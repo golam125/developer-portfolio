@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* header section */
+
+nav {
+    margin: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.logo-r {
+    color: #FD6E0A;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
