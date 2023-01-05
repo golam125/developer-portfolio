@@ -4,10 +4,31 @@
 
 }
 
-/* header section */
+.btn-primary {
+    background: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 36px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* header */
+
+header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, center left;
+}
 
 nav {
-    margin: 50px 200px;
+    padding-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,4 +52,91 @@ nav ul li {
 nav li {
     list-style: none;
     margin-left: 50px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* banner section */
+
+.hero {
+    padding-left: 10%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.banner-subtitle {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.hero-details {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.photo {
+    width: 584px;
+    height: 676px;
+
+}
+
+/* Main section */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* about me section */
+
+.about {
+    margin-top: 130px;
+    padding: 131px 157px;
+    background: #FFF8F3;
+    border-radius: 10px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.identity {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* expert section */
+
+.expert {
+    padding: 131px 157px;
+
 }
